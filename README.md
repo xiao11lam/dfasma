@@ -60,8 +60,7 @@ OR ALGORITHMS (E.G. CONSEQUENCES OF BUGS OR ERRONEOUS IMPLEMENTATIONS).
 See the GNU General Public License (LICENSE.txt) for additional details.
 # Git Clone
 ```
-git clone -c core.symlinks=true ...
-
+git clone -c core.symlinks=true ...  # not really work lols
 ```
 
 # GCC 11.3.0 for 64bits
