@@ -13,6 +13,7 @@ It is stored as a GitLab project (https://gitlab.com/gillesdegottex/dfasma).
 
 
 ### Goals
+
 * The interface and the audio files should be loaded as quickly as possible.
 * Any kind of lossless audio files should be easily loaded (it currently
   uses libsndfile, which support ~25 different formats).
@@ -57,3 +58,21 @@ ALSO, THE COPYRIGHT HOLDERS AND CONTRIBUTORS DO NOT TAKE ANY LEGAL
 RESPONSIBILITY REGARDING THE IMPLEMENTATIONS OF THE PROCESSING TECHNIQUES
 OR ALGORITHMS (E.G. CONSEQUENCES OF BUGS OR ERRONEOUS IMPLEMENTATIONS).
 See the GNU General Public License (LICENSE.txt) for additional details.
+
+
+# GCC 11.3.0 for 64bits
+
+```
+nix-env -qaP dfasma
+
+nix-shell -p dfasma
+```
+
+# Under Ubuntu's Dependencies
+
+```
+sudo apt-get install libfftw3-dev
+sudo apt-get install libsndfile1-dev
+
+
+```
