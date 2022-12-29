@@ -87,12 +87,12 @@ sudo apt-get install libsndfile1-dev
 
 
 <div align="center">
-  <img src="add_lib.png" width = "50%" height = "50%">
+  <img src="pics/add_lib.png" width = "50%" height = "50%">
 </div>
 
 
 
 <div align="center">
-  <img src="fft.png" width = "50%" height = "50%">
+  <img src="pics/fft.png" width = "50%" height = "50%">
 </div>
 
