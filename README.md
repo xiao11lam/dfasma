@@ -93,7 +93,7 @@ sudo apt-get install libsndfile1-dev
 This lib file was from:
 1. Download and extract the file here: http://www.fftw.org/install/windows.html
 2. Type: ```lib /machine:x86 /def:libfftw3-3.def``` in the terminal. (If 64 bit lib, just change the 86 into 64)
-
+https://www.youtube.com/watch?v=geYbCA137PU&t=234s
 <div align="center">
   <img src="pics/fft.png" width = "50%" height = "50%">
 </div>
