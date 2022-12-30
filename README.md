@@ -63,7 +63,7 @@ See the GNU General Public License (LICENSE.txt) for additional details.
 git clone -c core.symlinks=true ...  # not really work lols
 ```
 
-# GCC 11.3.0 for 64bits
+GCC 11.3.0 for 64bits
 
 ```
 nix-env -qaP dfasma
@@ -97,4 +97,7 @@ This lib file was from:
 <div align="center">
   <img src="pics/fft.png" width = "50%" height = "50%">
 </div>
+
+# The libsndfile audio package
+https://blog.csdn.net/gongjianbo1992/article/details/98995983
 
